@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCoreApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Whatever")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("DotNetCoreApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DotNetCoreApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("Whatever")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Whatever")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

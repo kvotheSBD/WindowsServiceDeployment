@@ -12080,11 +12080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erodriguez.lazaro\\source\\repos\\DotNetCoreApp\\DotNetCoreApp\\DotNetCoreApp.csproj",
-      "projectName": "DotNetCoreApp",
-      "projectPath": "C:\\Users\\erodriguez.lazaro\\source\\repos\\DotNetCoreApp\\DotNetCoreApp\\DotNetCoreApp.csproj",
+      "projectUniqueName": "C:\\repos\\WindowsServiceDeployment\\DotNetCoreApp\\DotNetCoreApp.csproj",
+      "projectName": "Whatever",
+      "projectPath": "C:\\repos\\WindowsServiceDeployment\\DotNetCoreApp\\DotNetCoreApp.csproj",
       "packagesPath": "C:\\Users\\erodriguez.lazaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erodriguez.lazaro\\source\\repos\\DotNetCoreApp\\DotNetCoreApp\\obj\\",
+      "outputPath": "C:\\repos\\WindowsServiceDeployment\\DotNetCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
