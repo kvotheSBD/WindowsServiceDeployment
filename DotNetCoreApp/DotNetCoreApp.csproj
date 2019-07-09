@@ -15,4 +15,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <Target Name="Clean">
+    <Message Text="Cleaning" />
+  </Target>
+  <Target Name="Compile">
+    <Message Text="Compiling" />
+  </Target>
+
 </Project>
