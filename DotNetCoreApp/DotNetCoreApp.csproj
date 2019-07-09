@@ -16,10 +16,10 @@
   </ItemGroup>
 
   <Target Name="Clean">
-    <Message Text="Cleaning" />
+    <Exec Command="dotnet clean"></Exec>
   </Target>
   <Target Name="Compile">
-    <Message Text="Compiling" />
+    <Exec Command="dotnet build"></Exec>
   </Target>
 
 </Project>
