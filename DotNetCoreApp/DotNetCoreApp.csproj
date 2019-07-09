@@ -1,11 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Clean;Build">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Clean;Build;Publish">
 
   <PropertyGroup>
     <AssemblyName>Whatever</AssemblyName>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RuntimeIdentifiers>win10-x64;ubuntu.16.10-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,5 +20,8 @@
   </Target>
   <Target Name="Build">
     <Exec Command="dotnet build"></Exec>
+  </Target>
+  <Target Name="Publish">
+    <Exec Command="dotnet publish -c Release -r win10-x64"></Exec>
   </Target>
 </Project>
