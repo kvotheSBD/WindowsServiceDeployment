@@ -1,0 +1,24 @@
+@Library("scm-shared-lib@feature/SCM3442") _
+//@Library("scm-shared-lib") _
+
+BuildInput = readJSON text: env.BuildInput
+BuildOutput = [ buildNumber: currentBuild.id, neededRollbacks: [], relatedProjects: [:] ]
+
+pipeline {
+  agent none
+  options {
+    timestamps()
+  }
+  stages {
+    stage('Inicializar entorno') {
+      agent none
+      steps {
+        initializeEnvironment(this)
+        script {
+          net.obtenerDatosDespliegue(net.pase)
+        }
+      }
+    }
+    //[...]
+  }
+}
